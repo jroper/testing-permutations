@@ -8,14 +8,14 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Testing Permutations Example</name>
-    <description>Example code for how to test permutations of configurations. Read in conjunction with my blog post on http://developer.vz.net/blog/</description>
+    <description>Example code for how to test permutations of configurations. Read in conjunction with my blog post on http://developer.vz.net/2011/11/11/testing-permutations-of-configurations/</description>
     <url>https://github.com/jroper/testing-permutations</url>
     <developers>
         <developer>
             <name>James Roper</name>
             <email>jroper@vz.net</email>
             <url>http://developer.vz.net/author/james-roper/</url>
-            <organization>VZnet</organization>
+            <organization>VZ</organization>
             <organizationUrl>http://vz.net</organizationUrl>
         </developer>
     </developers>
