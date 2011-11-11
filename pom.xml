@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.vz.jroper</groupId>
+    <artifactId>testing-permutations</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Testing Permutations Example</name>
+    <description>Example code for how to test permutations of configurations. Read in conjunction with my blog post on http://developer.vz.net/blog/</description>
+    <url>https://github.com/jroper/testing-permutations</url>
+    <developers>
+        <developer>
+            <name>James Roper</name>
+            <email>jroper@vz.net</email>
+            <url>http://developer.vz.net/author/james-roper/</url>
+            <organization>VZnet</organization>
+            <organizationUrl>http://vz.net</organizationUrl>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.6.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
